@@ -1,0 +1,55 @@
+{
+    "id": "wanhaoduplicatori3",
+    "name": "Wanhao Duplicator i3",
+    "platform_texture": "WanhaoDuplicatori3Backplate.png",
+    "machine_settings": {
+        "machine_width": {
+            "default": 200
+        },
+        "machine_depth": {
+            "default": 200
+        },
+        "machine_height": {
+            "default": 180
+        }
+    },
+    "categories": {
+        "resolution": {
+            "settings": {
+                "layer_height": {
+                    "default": 0.1,
+                    "min_value": 0.1,
+                    "min_value_warning": 0.1,
+                    "max_value_warning": 0.4
+                }
+            }
+        }
+    },
+    "material": {
+        "settings": {
+            "material_print_temperature": {
+                "default": 190
+            },
+            "material_bed_temperature": {
+                "default": 45
+            },
+            "material_diameter": {
+                "default": 1.75
+            }
+        }
+    },
+    "speed": {
+        "settings": {
+            "speed_print": {
+                "children": {
+                    "speed_infill": {
+                        "default": 60
+                    }
+                }
+            },
+            "speed_travel": {
+                "default": 100
+            }
+        }
+    }
+}
