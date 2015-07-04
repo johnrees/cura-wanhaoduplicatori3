@@ -1,19 +1,19 @@
 {
+    "inherits": "ultimaker2.json",
     "id": "wanhaoduplicatori3",
     "name": "Wanhao Duplicator i3",
-    "platform_texture": "WanhaoDuplicatori3Backplate.png",
+    "icon": "icon_ultimaker2.png",
+    "platform": "ultimaker2_platform.obj",
+    "platform_texture": "WanhaoDuplicatori3backplate.png",
+
     "machine_settings": {
-        "machine_width": {
-            "default": 200
-        },
-        "machine_depth": {
-            "default": 200
-        },
-        "machine_height": {
-            "default": 180
-        }
+        "machine_width": { "default": 200 },
+        "machine_depth": { "default": 200 },
+        "machine_height": { "default": 180 }
     },
+
     "categories": {
+
         "resolution": {
             "settings": {
                 "layer_height": {
@@ -24,30 +24,40 @@
                 }
             }
         },
+
         "material": {
             "settings": {
                 "material_print_temperature": {
+                    "visible": true,
                     "default": 190
                 },
                 "material_bed_temperature": {
+                    "visible": true,
                     "default": 45
                 },
                 "material_diameter": {
+                    "visible": true,
                     "default": 1.75
+                },
+                "material_flow": {
+                    "visible": true
                 }
             }
         },
+
         "speed": {
+            "visible": true,
             "settings": {
                 "speed_print": {
+                    "default": 50.0,
                     "children": {
                         "speed_infill": {
-                            "default": 60
+                            "default": 60.0
                         }
                     }
                 },
                 "speed_travel": {
-                    "default": 100
+                    "default": 100.0
                 }
             }
         }
