@@ -1,5 +1,7 @@
 # Cura Wanhao Duplicator i3 Settings
 
+### NOTE: As of yet these settings are untested. Feedback and pull-requests are extremely welcome!
+
 Default configuration files for the Wanhao Duplicator i3
 
 ![screenshot](https://i.imgur.com/zWYVSVy.png)
