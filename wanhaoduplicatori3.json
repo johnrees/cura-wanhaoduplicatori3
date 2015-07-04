@@ -51,5 +51,23 @@
                 "default": 100
             }
         }
+    },
+    "categories": {
+        "material": {
+            "settings": {
+                "material_print_temperature": {
+                    "visible": true
+                },
+                "material_bed_temperature": {
+                    "visible": true
+                },
+                "material_diameter": {
+                    "visible": true
+                },
+                "material_flow": {
+                    "visible": true
+                }
+            }
+        }
     }
 }
