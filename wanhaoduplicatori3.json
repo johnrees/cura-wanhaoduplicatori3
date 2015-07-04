@@ -23,49 +23,31 @@
                     "max_value_warning": 0.4
                 }
             }
-        }
-    },
-    "material": {
-        "settings": {
-            "material_print_temperature": {
-                "default": 190
-            },
-            "material_bed_temperature": {
-                "default": 45
-            },
-            "material_diameter": {
-                "default": 1.75
-            }
-        }
-    },
-    "speed": {
-        "settings": {
-            "speed_print": {
-                "children": {
-                    "speed_infill": {
-                        "default": 60
-                    }
-                }
-            },
-            "speed_travel": {
-                "default": 100
-            }
-        }
-    },
-    "categories": {
+        },
         "material": {
             "settings": {
                 "material_print_temperature": {
-                    "visible": true
+                    "default": 190
                 },
                 "material_bed_temperature": {
-                    "visible": true
+                    "default": 45
                 },
                 "material_diameter": {
-                    "visible": true
+                    "default": 1.75
+                }
+            }
+        },
+        "speed": {
+            "settings": {
+                "speed_print": {
+                    "children": {
+                        "speed_infill": {
+                            "default": 60
+                        }
+                    }
                 },
-                "material_flow": {
-                    "visible": true
+                "speed_travel": {
+                    "default": 100
                 }
             }
         }
