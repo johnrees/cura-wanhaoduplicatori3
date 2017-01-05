@@ -1,4 +1,4 @@
-# Cura Wanhao Duplicator i3 Settings
+# Cura 2.3+ Wanhao Duplicator i3 Settings
 
 ### NOTE: As of yet these settings are untested. Feedback and pull-requests are extremely welcome!
 
@@ -17,8 +17,16 @@ Please note, they have not been tested so please check the file, make ajustments
 
 1. Move `WanhaoDuplicatori3backplate.png` to `/Applications/Cura.app/Contents/Resources/cura/resources/images`
 
-2. Move `wanhaoduplicatori3.json` to `/Applications/Cura.app/Contents/Resources/cura/resources/settings`
+2. Move `wanhaoduplicatori3.def.json` to `/Applications/Cura.app/Contents/Resources/cura/resources/definitions`
 
 3. Relaunch Cura
 
 *If you have issues copying files with terminal you can find Cura in Applications, right click and select Show Package Contents, then open the folders with Finder.*
+
+### Windows
+
+1. Move `WanhaoDuplicatori3backplate.png` to `%programfiles%\Cura 2.3\resources\images` (or similar)
+
+2. Move `wanhaoduplicatori3.def.json` to `%programfiles%\Cura 2.3\resources\definitions`
+
+3. Relaunch Cura
