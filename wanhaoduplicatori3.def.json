@@ -1,0 +1,53 @@
+{
+    "id": "wanhaoduplicatori3",
+    "version": 2,
+    "name": "Wanhao Duplicator i3",
+    "inherits": "ultimaker2",
+
+    "metadata": {
+        "visible": true,
+        "author": "Wanhao Duplicator i3",
+        "manufacturer": "Wanhao",
+        "category": "Other",
+        "file_formats": "text/x-gcode",
+        "platform": "ultimaker2_platform.obj",
+        "platform_texture": "WanhaoDuplicatori3backplate.png"
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "Wanhao Duplicator i3" },
+        "machine_width": { "default_value": 200 },
+        "machine_depth": { "default_value": 200 },
+        "machine_height": { "default_value": 180 },
+        "layer_height": {
+            "default_value": 0.1,
+            "min_value": 0.1,
+            "min_value_warning": 0.1,
+            "max_value_warning": 0.4
+        },
+        "material_print_temperature": {
+            "visible": true,
+            "default_value": 190
+        },
+        "material_bed_temperature": {
+            "visible": true,
+            "default_value": 45
+        },
+        "material_diameter": {
+            "visible": true,
+            "default_value": 1.75
+        },
+        "material_flow": {
+            "visible": true
+        },
+        "speed_print": {
+            "default_value": 50
+        },
+		"speed_infill": {
+			"default_value": 60
+		},
+        "speed_travel": {
+            "default_value": 160
+        }
+    }
+}
